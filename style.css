@@ -36,7 +36,7 @@ nav{
 	max-height: 23px;
 }
 nav .menu{
-	width: 355px;
+      /*width: 356px;*/
 	margin-left: 18px;
 	float: left;
 	font-size: 0;
@@ -191,14 +191,14 @@ input, textarea {
    font-family: "Segoe UI","wf_segoe-ui_normal","Arial",sans-serif;
 }
 nav form button{
-	background-color: #fff;
+    background-color: #fff;
     position: static;
     border: 1px solid #A9A9A9;
     border-left: none;
     height: 36px;
     position: relative;
     right: 5px;
-    top: 1px;
+    top: 0px;
     font-size: 17px;
     padding:0 9px 0 10.2px;
     color: #A9A9A9;
