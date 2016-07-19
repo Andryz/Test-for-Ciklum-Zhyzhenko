@@ -1,23 +1,3 @@
-(function() {
-	
-  /*var look_css = document.getElementById('look_css');
-	var looked = document.getElementsByClassName('looked');*/
-	var shop = document.getElementsByClassName('shop');
-	var dropdown = document.getElementsByClassName('dropdown');
-	var under_dropdown = document.getElementsByClassName('under_dropdown');
-
-      /*dropdown[0].hover = function(){
-			if(dropdown[0].height()>  under_dropdown[0].height()){
-		   	   dropdown[0].style.height = under_dropdown[0].height();
-			} 
-		};
-*/
-		
-	
-
-	
-})();
-
 
 $('.shop').on('click', function(e){
 $('.dropdown').slideToggle();
@@ -119,12 +99,4 @@ $(document).ready(function() {
 	$('#signup_password').on('keypress', function(e){
 		$('.label_signup_password').css({'opacity': 0 });
 	});
-
-	
-
-
-
-
-	
-	
 });
